@@ -340,6 +340,7 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    margin-right: auto;
 }
 
 .navbar-toggle:hover {
@@ -741,6 +742,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 270px;
+    height: 270px;
 }
 
 .portfolio-row {
@@ -1040,3 +1043,4 @@ h4 {
         text-align: center;
     }
 }
+
