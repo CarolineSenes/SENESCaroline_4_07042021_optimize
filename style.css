@@ -90,9 +90,9 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+blockquote p{
+    font-size: 2rem;
+    font-style: italic;
 }
 
 .b-parallax {
@@ -264,10 +264,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-figcaption{
-    color: #000;
-}
-
 .voffset {
     margin-top: 30px;
 }
@@ -365,6 +361,28 @@ figcaption{
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.formulaire{
+    background-color: #FFF6E3;
+    padding: 20px 10px;
+}
+
+#nous-contacter{
+    color: black!important;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+input:focus, textarea:focus {
+    background: #FFCE4C;
+    color: black;
+    border: solid 2px black!important;
+  }
+
+.obligatoire{
+    color: red;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -681,8 +699,12 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 12px;
+p, figcaption {
+    font-size: 14px;
+}
+
+figcaption{
+    color: #575757;
 }
 
 .tight-width-whitespace {
@@ -719,6 +741,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    line-height: 1.5;
 }
 
 .med-width-whitespace {
@@ -744,6 +767,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+article{
+    margin-bottom: 44px;
+}
+
 footer .white{
     font-size: 13px;
     color: black!important;
@@ -753,11 +780,11 @@ footer .white{
     margin-bottom: 24px;
     width: 270px;
     height: 270px;
+    margin: auto;
 }
 
-.portfolio-row {
+#realisations{
     margin-bottom: 44px;
-    margin-top: 50px;
 }
 
 .avatar {
@@ -765,7 +792,7 @@ footer .white{
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(138, 113, 76, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -792,8 +819,7 @@ footer .white{
 }
 
 .btn-atomic-tangerine:hover {
-    background: #A12D07!important;
-    color: #FFFFFF!important;
+    background: #FFCE4C!important;
 }
 
 .ltc-white {
@@ -802,6 +828,7 @@ footer .white{
 
 .ltc-white:hover {
     color: #000!important;
+    background: #FFCE4C!important;
 }
 
 .ltc-atomic-tangerine {
