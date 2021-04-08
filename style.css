@@ -380,11 +380,6 @@ input:focus, textarea:focus {
     border: solid 2px black!important;
   }
 
-.obligatoire{
-    color: red;
-    font-weight: bold;
-}
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -945,7 +940,6 @@ footer .white{
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
@@ -981,7 +975,7 @@ footer .white{
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: rgba(255, 255, 255, 0.6);
     }
     .hero {
         padding: 50px 0;
