@@ -817,7 +817,7 @@ footer .white{
     color: #000!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
     background: #FFCE4C!important;
 }
 
@@ -825,7 +825,7 @@ footer .white{
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover, .ltc-white:focus{
     color: #000!important;
     background: #FFCE4C!important;
 }
