@@ -385,7 +385,8 @@ input:focus, textarea:focus {
 }
 
 .coordonnees{
-    margin-top: 30px;
+    color: #575757;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
