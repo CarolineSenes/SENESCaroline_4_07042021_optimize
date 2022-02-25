@@ -8,7 +8,7 @@ Sur le mot-clé “Entreprise web design Lyon”, le site de l’agence apparaî
 Amélioration du référencement
 
 ## Résultats attendus
-### Rapport d'analyse SEO
+### [Rapport d'analyse SEO](./audit/P4_01_analyse.pdf)
  - Parties non-optimisées SEO/accessibilité
  - Bonnes pratiques à mettre en place
  - Sources
@@ -21,6 +21,6 @@ Amélioration du référencement
  - Code valide au W3C HTML et CSS
  - Responsive
 
-### Rapport d'optimisation
+### [Rapport d'optimisation](./audit/P4_03_optimisation.pdf)
  - Résultats chiffrés avant/après optimisation pour chaque recommandation appliquée
  - Screenshots avant/après
