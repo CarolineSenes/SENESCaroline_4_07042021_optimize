@@ -1,4 +1,4 @@
-# Optimiser le site web existant de La chouette agence
+# Optimiser le site web existant d'une agence web
 
 ## Problématique
 L’activité de l’entreprise a bien démarré mais aujourd’hui, elle est en perte de vitesse.
